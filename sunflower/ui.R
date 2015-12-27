@@ -15,7 +15,8 @@ shinyUI(fluidPage( # function fluidPage creates a display that automatically adj
                  called a pulvinus. The motor cells are specialized in pumping potassium ions 
                  into nearby tissues, changing their turgor pressure. 
                  The segment flexes because the motor cells at the shadow side elongate due to
-                 a turgor rise. Heliotropism is a response to light from the sun. Source: wikipedia")
+                 a turgor rise. Heliotropism is a response to light from the sun. 
+                 Source:", a("wikipedia", href = "https://en.wikipedia.org/wiki/Heliotropism"))
     )
   )
 ))
