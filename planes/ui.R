@@ -1,24 +1,15 @@
-library(shiny)
+# ui.R
 
-# Define UI for application that draws a histogram
-shinyUI(fluidPage(
+shinyUI(fluidPage( # function fluidPage creates a display that automatically adjusts
+  #to the dimensions of your user’s browser window
+  titlePanel("Yo..."),
   
-  # Application title
-  titlePanel("Hello Folks!"),
-  
-  # Sidebar with a slider input for the number of bins
   sidebarLayout(
-    sidebarPanel(
-      sliderInput("bins",
-                  "Number of bins:",
-                  min = 5,
-                  max = 40,
-                  value = 30)
-    ),
-    
-    # Show a plot of the generated distribution
-    mainPanel(
-      plotOutput("distPlot")
+    sidebarPanel( "sidebar panel"),
+    mainPanel( h1("First level title"),
+               h2("Second level title"),
+               h3("Third level title")
     )
   )
 ))
+
