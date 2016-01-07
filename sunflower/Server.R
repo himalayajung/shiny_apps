@@ -8,6 +8,7 @@ shinyServer(function(input, output) {
   #
   #  1) It is "reactive" and therefore should re-execute automatically
   #     when inputs change
+  # this reactive feature is awesome!
   #  2) Its output type is a plot
   
   output$distPlot <- renderPlot({
